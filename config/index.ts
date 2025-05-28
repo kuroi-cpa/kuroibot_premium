@@ -3,11 +3,11 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
-  privacy_policy: '',
-  default_language: 'en',
+  title: '公認会計士くろいbot_Premium',
+  description: '会計特化チャットボット',
+  copyright: '©️ 2025 白井敬祐公認会計士事務所',
+  privacy_policy: '/privacy',
+  default_language: 'ja',
 }
 
 export const isShowPrompt = false
